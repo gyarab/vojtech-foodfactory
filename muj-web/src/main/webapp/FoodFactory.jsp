@@ -24,8 +24,8 @@
 </form>
 
 <dl>
-    <dt>Cena</dt><dd><?= j==null ? "" : j.dejCenu()?></dd>
-    <dt>Postup</dt><dd><?= j==null ? "" : j.vyrobTo()?></dd>
+    <dt>Cena</dt><dd><?= j==null ? "" : j.dejCenu()%></dd>
+    <dt>Postup</dt><dd><?= j==null ? "" : j.vyrobTo()%></dd>
 </dl>
 </body>
 </html>
